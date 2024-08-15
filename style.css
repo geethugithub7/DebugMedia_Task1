@@ -1,0 +1,57 @@
+/* General form styling */
+form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #0a84a2;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading style */
+form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input field style */
+form input[type="text/"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #34c6f2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button style */
+form button {
+    width: 40%;
+    padding: 5px;
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2db308;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #04ab54;
+}
+
+/* Specific style for logout button */
+form button#logout {
+    background-color: #dc3545;
+}
+
+form button#logout:hover {
+    background-color: #c82333;
+}
